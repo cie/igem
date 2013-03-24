@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "igem"
   gem.homepage = "http://github.com/cie/igem"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Load gem commands from the Rails command line with forking}
+  gem.description = %Q{With this gem you can load gem commands from the command line with forking, or start Rails subcommands without re-loading the whole rails environment. This can help you speed up the Rails development.}
   gem.email = "kallo.bernat@gmail.com"
   gem.authors = ["Bernát Kalló"]
   # dependencies defined in Gemfile
