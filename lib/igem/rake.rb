@@ -10,6 +10,7 @@ module IGem::Rake
   #     Rake.reload!
   #     load "path/to/my/tasks.rake"
   #     igem "rake my:task"
+  #     ...
   def reload!
     Rake.application.clear
     if defined? Rails
